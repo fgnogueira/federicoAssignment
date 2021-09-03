@@ -1,0 +1,27 @@
+{
+      "__URLs__": "All the URLs to be used during testing",
+      "login_url": "https://qa-assignment.citizenlab.co/en/",
+
+      "__VALUEs__": "All the VALUEs to be used during testing",
+      "emailValue":"federicogonzaleznogueira@gmail.com",
+      "nonregisteredUserValue":"federico@gmail.com",
+      "invalidUserValue":"federico",
+      "passValue":"Sevilla123",
+      "signInHeaderValue" : "Welcome, Federico. It's time to complete your profile.",
+ 
+
+      "__FIELDs__": "All the FIELDs to be used during testing",
+      "emailField":"#email",
+      "passField":"#password",
+      "signInHeaderField":".SignedInHeader__Text-zfsh0z-12 > h2",
+      "invalidUserMessageField":".idhODh > p",
+      "emailWarningMessageField":".sc-AxmLO > p",
+      "passwordWarningMessageField":".idhODh > p",
+
+      "__BUTTONs__": "All the BUTTONs to be used during testing",
+      "mainLoginButton":"#e2e-navbar-login-menu-item > .Navbar__NavigationItemText-u6ozfr-8.hWQTHX > span",
+      "loginButton":"#e2e-signin-password-submit-button > button[type='submit'].sc-fzqzEs.eVQcHf.button.Button.primary > .sc-fzoPby.cSPfCG.buttonText",
+      "settingsButton":"svg.Avatar__AvatarIcon-t8y6u0-2.iwCrHv > path:nth-of-type(1)",
+      "logoutButton":"button[type='submit'].sc-fzqzEs.eVQcHf.button.Button.text > .sc-fzoPby.cSPfCG.buttonText > span"
+
+}
